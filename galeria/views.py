@@ -1,5 +1,10 @@
 from django.shortcuts import render
 
-def index(Request):
-    return render(Request, 'index.html')
+def index(request):
+    return render(request, 'galeria/index.html')
+
+
+def imagem(request):
+    return render(request, 'galeria/imagem.html')
 # Create your views here.
+ 
